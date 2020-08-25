@@ -11,4 +11,7 @@ gist:
 kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
+<<<<<<< HEAD
 theme: jekyll-theme-minimal
+=======
+>>>>>>> fdde9fabbcb7f91722f9d4eee4e255d87e8f5982
