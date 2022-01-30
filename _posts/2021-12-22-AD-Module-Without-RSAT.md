@@ -8,10 +8,10 @@ Copy the following DLL from a computer that has RSAT installed:
 
 *C:\Windows\Microsoft.NET\assembly\GAC_64\Microsoft.ActiveDirectory.Management*
 
-RSAT dll available her [1] 
+[RSAT dll available here][1] 
 
-[1]:{{ https://jdsecdef.github.io/ }}/assets/Microsoft.ActiveDirectory.Management.dll }}
-
+[1]:{{ https://jdsecdef.github.io/ }}/download/Microsoft.ActiveDirectory.Management.dll }}
+                                             
 ![useful image]({{ https://jdsecdef.github.io/ }}/assets/ADRSATdll.png)
 
 Then import the DLL as a module using the following command:
