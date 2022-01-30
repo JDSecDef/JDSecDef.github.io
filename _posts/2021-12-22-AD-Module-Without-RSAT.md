@@ -10,7 +10,7 @@ Copy the following DLL from a computer that has RSAT installed:
 
 [RSAT dll available here][1] 
 
-[1]:{{ https://jdsecdef.github.io/ }}/download/Microsoft.ActiveDirectory.Management.dll }}
+[1]:({{ https://jdsecdef.github.io/ }}/download/Microsoft.ActiveDirectory.Management.dll)
                                              
 ![useful image]({{ https://jdsecdef.github.io/ }}/assets/ADRSATdll.png)
 
