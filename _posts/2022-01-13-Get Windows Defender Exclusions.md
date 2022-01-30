@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Windows Defender Notes"
+title: "Get Windows Defender Exclusions"
 date: 2022-01-13
 ---
 
