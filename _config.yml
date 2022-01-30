@@ -1,2 +1,3 @@
 name: JDSecDef
 markdown: karmdown
+permalink: /blog/:year/:month/:day/:title
