@@ -8,10 +8,12 @@ date: 2021-12-22
 
 <ul><li>C:\Windows\Microsoft.NET\assembly\GAC_64\Microsoft.ActiveDirectory.Management</li></ul>
 
-![useful image]({{ https://jdsecdef.github.io/ }}/assets/ADRSATdll.png)
+![RSATdll-Location](/assets/ADRSATdll.png)
 
 <p>Then import the DLL as a module using the following command:</p>
 
-<pre><code>Import-Module .\Microsoft.ActiveDirectory.Management.dll</code></pre>
+~~~powershell
+Import-Module .\Microsoft.ActiveDirectory.Management.dll
+~~~
 
 [Click here to Download the RSAT dll](/assets/Microsoft.ActiveDirectory.Management.dll)
