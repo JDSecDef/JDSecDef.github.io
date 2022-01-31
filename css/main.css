@@ -1,4 +1,4 @@
-@import url(github.css);
+@import url(thankfuleyes.css);
 
 body {
     margin: 60px auto;
@@ -42,4 +42,8 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+}
+code {
+    font-size: 1.2em;
+    background-color: #082454;
 }
