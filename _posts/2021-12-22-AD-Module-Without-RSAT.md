@@ -4,7 +4,7 @@ title: "PowerShell AD Module Without RSAT"
 date: 2021-12-22
 ---
 
-<p>Copy the following DLL from a computer that has RSAT installed:
+<p>Copy the following DLL from a computer that has RSAT installed:</P>
 
 <pre><code>C:\Windows\Microsoft.NET\assembly\GAC_64\Microsoft.ActiveDirectory.Management</code></pre>
 
