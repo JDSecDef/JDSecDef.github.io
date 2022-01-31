@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "PowerShell AD Module Without RSAT"
+title: PowerShell AD Module Without RSAT
 date: 2021-12-22
+author: By JD
 ---
 
-<p>Copy the Microsoft.ActiveDirectory.Management.dll from a computer that has RSAT installed from the following location:</P>
+<p>Copy the Microsoft.ActiveDirectory.Management.dll from a computer that has RSAT installed from the following folder:</P>
 
-<ul><li>C:\Windows\Microsoft.NET\assembly\GAC_64\Microsoft.ActiveDirectory.Management</li></ul>
+<span style="font-size: 0.9em"> *C:\Windows\Microsoft.NET\assembly\GAC_64\Microsoft.ActiveDirectory.Management* </span>
 
 ![RSATdll-Location](/assets/ADRSATdll.png)
 

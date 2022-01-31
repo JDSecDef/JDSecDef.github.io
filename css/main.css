@@ -1,8 +1,6 @@
-@import url(thankfuleyes.css);
-
 body {
     margin: 60px auto;
-    width: 70%;
+    width: 80%;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -23,27 +21,37 @@ a:hover {
 }
 h1 {
     font-size: 3em;
+    line-height: 0px;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+h2 {
+    line-height: 20%;
+    padding-top: 15px;
 }
 p {
     font-size: 1.1em;
     line-height: 1.0em;
     color: #333;
 }
-footer {
-    border-top: 1px solid #d5d5d5;
+header {
+    border-top: 2px solid #d5d5d5;
     font-size: .8em;
 }
-
+footer {
+    border-top: 2px solid #d5d5d5;
+    font-size: .8em;
+}
 ul.posts { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
 }
-
 ul.posts li {
     list-style: none;
 }
+blockquote {
+    font-size: 0.9em;
+}
 code {
-    font-size: 1.2em;
-    background-color: #082454;
+    font-size: 1.1em;
+    background-color:lightgray;
 }
