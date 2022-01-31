@@ -171,6 +171,10 @@
   color: #990000;
   font-weight: bold;
 }
+.highlight .n {
+  color: #e6db74;
+  font-weight: bold;
+}
 .highlight .nf, .highlight .fm {
   color: #990000;
   font-weight: bold;
