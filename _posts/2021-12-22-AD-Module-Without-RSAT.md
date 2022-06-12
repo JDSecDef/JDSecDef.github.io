@@ -1,17 +1,24 @@
 ---
 layout: post
+<<<<<<< HEAD
 title: "Use PowerShell AD Module Without RSAT"
+=======
+title: PowerShell AD Module Without RSAT
+>>>>>>> d26a604010ea063042947916c33a420563a0fc1b
 date: 2021-12-22
+author: By JD
 ---
 
-<p>Copy the Microsoft.ActiveDirectory.Management.dll from a computer that has RSAT installed from the following location:</P>
+<p>Copy the Microsoft.ActiveDirectory.Management.dll from a computer that has RSAT installed from the following folder:</P>
 
-<ul><li>C:\Windows\Microsoft.NET\assembly\GAC_64\Microsoft.ActiveDirectory.Management</li></ul>
+<span style="font-size: 0.9em"> *C:\Windows\Microsoft.NET\assembly\GAC_64\Microsoft.ActiveDirectory.Management* </span>
 
-![useful image]({{ https://jdsecdef.github.io/ }}/assets/ADRSATdll.png)
+![RSATdll-Location](/assets/ADRSATdll.png)
 
 <p>Then import the DLL as a module using the following command:</p>
 
-<pre><code>Import-Module .\Microsoft.ActiveDirectory.Management.dll</code></pre>
+~~~powershell
+Import-Module .\Microsoft.ActiveDirectory.Management.dll
+~~~
 
 [Click here to Download the RSAT dll](/assets/Microsoft.ActiveDirectory.Management.dll)
