@@ -1,11 +1,15 @@
 ---
 layout: post
-title: "Finding cpasswords in Group Policy Preferences"
+title: "Finding and decrypting cpasswords in Group Policy Preferences"
 date: 2022-06-12
 ---
 
+~~~cmd
+findstr /S /I cpassword \\<FQDN>\\sysvol\<FQDN>\policies\*.xml
+~~~
+
 ~~~powershell
-Import-Module .\Get-DecryptedCpasswords.ps1
+Import-Module .\Get-DecryptedCpassword.ps1
 ~~~
 
 [Click here to Download the PowerShell script to decrypt cpassword values](/assets/Get-DecryptedCpassword.ps1)
