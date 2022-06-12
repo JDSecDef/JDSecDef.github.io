@@ -8,7 +8,7 @@ date: 2022-06-12
 Import-Module .\Get-DecryptedCpasswords.ps1
 ~~~
 
-[Click here to Download the RSAT dll](/assets/Get-DecryptedCpasswords.ps1)
+[Click here to Download the PowerShell script to decrypt cpassword values](/assets/Get-DecryptedCpassword.ps1)
 
 
 
