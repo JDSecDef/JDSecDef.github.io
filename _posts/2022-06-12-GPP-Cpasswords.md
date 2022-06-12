@@ -1,17 +1,17 @@
 ---
 layout: post
-title: "Use PowerShell AD Module Without RSAT"
-date: 2021-12-22
+title: "Finding cpasswords in Group Policy Preferences"
+date: 2022-06-12
 ---
 
 <p>Copy the Microsoft.ActiveDirectory.Management.dll from a computer that has RSAT installed from the following location:</P>
 
 <ul><li>C:\Windows\Microsoft.NET\assembly\GAC_64\Microsoft.ActiveDirectory.Management</li></ul>
 
-![useful image]({{ https://jdsecdef.github.io/ }}/assets/ADRSATdll.png)
+<!-- ![useful image]({{ https://jdsecdef.github.io/ }}/assets/ADRSATdll.png)
 
 <p>Then import the DLL as a module using the following command:</p>
 
 <pre><code>Import-Module .\Microsoft.ActiveDirectory.Management.dll</code></pre>
 
-[Click here to Download the RSAT dll](/assets/Microsoft.ActiveDirectory.Management.dll)
+[Click here to Download the RSAT dll](/assets/Microsoft.ActiveDirectory.Management.dll) -->
