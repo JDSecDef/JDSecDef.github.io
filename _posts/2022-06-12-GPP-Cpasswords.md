@@ -28,7 +28,7 @@ Import-Module .\Get-Decryptedcpassword.ps1
 Get-Decryptedcpassword <cpasswordvalue>
 ~~~
 
-![useful image]({{ https://jdsecdef.github.io/ }}/assets/cpassworddecrypted.png)
+![decryptedcpasswordexample](/assets/cpassworddecrypted.png)
 
 [Click here to Download the PowerShell script to decrypt cpassword values](/assets/Get-Decryptedcpassword.ps1)
 
