@@ -1,4 +1,4 @@
-function Get-DecryptedCpassword {
+function Get-Decryptedcpassword {
     [CmdletBinding()]
     Param (
         [string] $Cpassword
