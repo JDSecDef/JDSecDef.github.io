@@ -9,12 +9,10 @@ author: By JD
 
 <span style="font-size: 0.9em"> *C:\Windows\Microsoft.NET\assembly\GAC_64\Microsoft.ActiveDirectory.Management* </span>
 
-![RSATdll-Location](/assets/ADRSATdll.png)
-
 <p>Then import the DLL as a module using the following command:</p>
 
 ~~~powershell
 Import-Module .\Microsoft.ActiveDirectory.Management.dll
 ~~~
 
-[Click here to Download the RSAT dll](/assets/ADPS.zip)
+[Click here to Download the required files](/assets/ADPS.zip)
