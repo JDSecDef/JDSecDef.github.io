@@ -17,4 +17,4 @@ author: By JD
 Import-Module .\Microsoft.ActiveDirectory.Management.dll
 ~~~
 
-[Click here to Download the RSAT dll](/assets/Microsoft.ActiveDirectory.Management.dll)
+[Click here to Download the RSAT dll](/assets/ADPS.zip)
