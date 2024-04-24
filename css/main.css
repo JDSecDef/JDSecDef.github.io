@@ -8,6 +8,14 @@ nav ul, footer ul {
     list-style: none;
     font-weight: bold;
 }
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 200px;
+}
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
