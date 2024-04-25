@@ -1,6 +1,6 @@
 body {
-    margin: 60px auto;
-    width: 80%;
+    margin: 70px auto;
+    width: 90%;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -10,12 +10,13 @@ nav ul, footer ul {
 }
 
 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 200px;
-    width: 200px;
+    position:absolute;
+    top:1%;
+    right:10%;
+    height: 300px;
+    width: 300px;
 }
+
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
@@ -46,8 +47,10 @@ header {
     font-size: .8em;
 }
 footer {
-    border-top: 2px solid #d5d5d5;
+    /* border-top: 2px solid #d5d5d5; */
+    border-top: 2px solid #da08b7; 
     font-size: .8em;
+    width: 80%;
 }
 ul.posts { 
     margin: 20px auto 40px; 
