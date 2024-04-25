@@ -1,36 +1,12 @@
 <!DOCTYPE html>
-<html>
-
-<head>
-	<title>{{ page.title }}</title>
-	<!--Link to main stylesheet--->
-	<link rel="stylesheet" type="text/css" href="/css/main.css">
-</head>
-
+<html lang="en">
+{% include head.html %}
 <body>
-	<div class="blurb">
-		<h1 style="font-family: FreeMono">Kryt0x</h1>
-		<img src="https://JDSecDef.github.io/assets/CatCircle.png">
-	</div>
-	<div class="line"></div>
-	<nav>
-		<ul>
-			<li><a href="/">Home</a></li>
-			<li><a href="/about">About</a></li>
-			<li><a href="/blog">Security Notes</a></li>
-		</ul>
-	</nav>
 
-	<div class="container">
-
-		{{ content }}
-
-	</div>
-	<footer>
-		<ul>
-			<li><a href="https://github.com/JDSecDef">github.com/JDSecDef</a></li>
-		</ul>
-	</footer>
+  <div class="wrapper">
+    {{ content }}
+  </div>
+  
+  {% include analytics.html %}
 </body>
-
 </html>
