@@ -3,8 +3,9 @@ layout: post
 title: Finding and decrypting cpasswords in Group Policy Preferences
 date: 2022-06-12 13:32:20 +0300
 description: Finding and decrypting cpasswords in Group Policy Preferences
-img: decryptedcpassword.png # Add image post (optional)
+img: PSDecrypt.jpg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
+tags: [Productivity, Workflow] # add tag
 ---
 ## What are Group Policy Preferences
 <p>Group Policy Preferences (GPP) is a collection of Group Policy client-side extensions that enable settings that were previously unavailable in Group Policy, such as mapping drives, scheduled tasks and start menu settings. GPP allows administrators.
@@ -29,5 +30,7 @@ Import-Module .\Get-Decryptedcpassword.ps1
 Get-Decryptedcpassword <cpasswordvalue>
 ~~~
 
-[Click here to Download the PowerShell script to decrypt cpassword values](/assets/files/Get-Decryptedcpassword.ps1)
+![PowerShell]({{site.baseurl}}/assets/img/decryptedcpassword.png)
+
+[Click here to Download the PowerShell script to decrypt cpassword values](/assets/files/Get-DecryptedCpassword.ps1)
 

@@ -3,8 +3,9 @@ layout: post
 title: Use PowerShell AD Module Without RSAT
 date: 2021-12-22 13:32:20 +0300
 description: Use PowerShell AD Module Without RSAT # Add post description (optional)
-img: i-rest.jpg # Add image post (optional)
+img: PowerShellAD.jpg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
+tags: [Productivity, Workflow] # add tag
 ---
 <p>Copy the Microsoft.ActiveDirectory.Management.dll from a computer that has RSAT installed from the following folder:</P>
 
