@@ -10,7 +10,8 @@ site-twitter: #if your site has a twitter account, enter it here
 # Author Settings
 author: JD Security # add your name
 author-img: CatCircle.png # add your photo
-about-author: Cyber security professional specialising in defensive security. # add description
+about-author: Cyber security engineer specialising in defensive security. 
+about-certs: OSCP, CISSP, CCSP, CISM, CISA, CRISC, GPEN, GDSA
 social-twitter: # add your Twitter handle
 social-facebook: # add your Facebook handle
 social-github: JDSecDef # add your Github handle
